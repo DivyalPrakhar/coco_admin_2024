@@ -1,0 +1,52 @@
+.logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .nav-item {
+    /* height:max-content; */
+    cursor: pointer;
+    padding:0 10px;
+    transition: all 0.6s;
+  }
+  
+  .nav-item:hover{
+      background: rgba(207, 205, 205, 0.589)
+  }
+
+  .hover-list-item{
+    color: black
+  }
+
+  .hover-list-item:hover{
+    color:rgb(35, 71, 248)
+  }
+  
+  .avatar-uploader > .ant-upload {
+    width: 130px;
+    height: 130px;
+  }
+
+  .avatar-uploader-large > .ant-upload {
+    width: 200px;
+    height: 200px;
+  }
+
+  .subjectTab{
+    transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  }
+
+  .active-subjectTab{
+    background-color: #348A7A;
+    color: white;
+  }
+
+  .student-tab{
+    transition-delay: all .4s ease;
+    -webkit-transition: all .4s ease;
+  }
+  .student-tab:hover{
+    background-color: #F4F6F7;
+  }
